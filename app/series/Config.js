@@ -7,7 +7,7 @@ define([],
 			//The web map id
 			webmaps: [
 			{
-				id: "3e823422bed64c1e8513000fa4ad0362",
+				id: "54bdfa6d3913462a8963b21a5f6209fb",
 				title: ""
 			}],
 			//Enter a title, if no title is specified, the webmap's title is used.
@@ -21,11 +21,11 @@ define([],
 			// Specify a proxy for custom deployment
 			proxyurl: "",
 			//specify the url to a geometry service
-			geometryserviceurl: "http://tasks.arcgisonline.com/ArcGIS/rest/services/Geometry/GeometryServer",
+			geometryserviceurl: "/arcgis/rest/services/Utilities/Geometry/GeometryServer",
 			//If the webmap uses Bing Maps data, you will need to provided your Bing Maps Key
 			bingmapskey : "",
 			//Modify this to point to your sharing service URL if you are using the portal
-			sharingurl: "http://www.arcgis.com/sharing/rest/content/items"
+			sharingurl: "/arcgis/sharing/content/items"
 		}
 	}
 );
